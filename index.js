@@ -39,3 +39,13 @@ console.log(rdm);
 js = js[rdm];
 console.log(js);
 
+
+let firstName = "Martha";
+let lastName = "young";
+
+console.log(`Welcome ${firstName}, ${lastName}`);
+
+
+let add = 35, something = 30;
+
+console.log(`Your answer is ${add + something}`);
