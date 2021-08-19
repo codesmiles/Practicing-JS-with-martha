@@ -49,3 +49,34 @@ console.log(`Welcome ${firstName}, ${lastName}`);
 let add = 35, something = 30;
 
 console.log(`Your answer is ${add + something}`);
+
+
+let input = prompt(`Enter a month`, `value goes here`)
+
+let month = input.toLowerCase();
+
+/*switch (month) {
+	case `january` || `march` || `december` || `may` || `july` || `august` || `october`:
+		console.log(`${month} has 31 days.`);
+		break;
+
+	case `febuary`:
+		console.log(`${month} has 28 days.`);
+		break;
+
+	case `april` || `september` || `june` || `november`:
+		console.log(`${month} has 30 days.`)
+		break;
+
+	default: console.log(`${month} isn't a month`);
+
+
+}*/
+
+month === `january` || month ===`march` || month === `december` || month === `may` || month === `july` || month === `august` || month === `october` 
+? console.log(`${month} has 31 days.`)
+: month === `febuary`
+? console.log(`${month} has 28 days.`)
+: month === `april` || month === `september` ||month === `june` || `november` 
+? console.log(`${month} has 30 days.`)
+: console.log(`${month} isn't a month`)
